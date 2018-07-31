@@ -6,26 +6,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="#">Particles Documentation</a>
+      <a class="brand" routerLink="/">Future Corps</a>
       <div class="nav-collapse">
         <ul class="nav">
-          <li>
-            <a href="#top" class="active">Top</a>
-          </li>
-          <li>
-            <a href="#markup">Markup</a>
-          </li>
-          <li>
-            <a href="#styles">Styles</a>
-          </li>
-          <li>
-            <a href="#javascript">JavaScript</a>
-          </li>
-          <li>
-            <a href="#php">PHP</a>
-          </li>
-          <li>
-            <a href="#credits">Credits</a>
+          <li *ngFor="let page of pages">
+            <a routerLink="/{{ page.toLowerCase() }}" class="active">{{ page }}</a>
           </li>
         </ul>
       </div>
