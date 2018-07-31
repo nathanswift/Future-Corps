@@ -9,23 +9,8 @@
       <a class="brand" routerLink="/">Particles Documentation</a>
       <div class="nav-collapse">
         <ul class="nav">
-          <li>
-            <a routerLink="/top" class="active">Top</a>
-          </li>
-          <li>
-            <a routerLink="/markup">Markup</a>
-          </li>
-          <li>
-            <a routerLink="/styles">Styles</a>
-          </li>
-          <li>
-            <a routerLink="/javascript">JavaScript</a>
-          </li>
-          <li>
-            <a routerLink="/php">PHP</a>
-          </li>
-          <li>
-            <a routerLink="/credits">Credits</a>
+          <li *ngFor="let page of pages">
+            <a routerLink="/{{ page.toLowerCase() }}" class="active">{{ page }}</a>
           </li>
         </ul>
       </div>
