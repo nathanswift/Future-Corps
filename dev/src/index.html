@@ -1,44 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Dev</title>
+
   <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <script></script>
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-  <style type="text/css">
+	<meta charset="utf-8"/>
+	<meta name="author" content="Denis Samardjiev" />
+	<meta name="description" content="Particles - Personal + Agency Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Particles - Personal + Agency Template</title>
+	
+	<!-- Royal Preloader CSS -->
+	<link href="assets/css/royal_preloader.css" rel="stylesheet">
 
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-  </style>
-  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-  <link rel="assets/shortcut icon" href="images/favicon.ico">
-  <link rel="assets/apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="assets/apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="assests/apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<!-- Parallax File -->
+	<script type="text/javascript" src="assets/js/parallax.min.js"></script>
 
+	<!-- Royal Preloader -->
+	<script type="text/javascript" src="assets/js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+		Royal_Preloader.config({
+		    mode:           'number',
+		    showProgress:   false,
+		    background:     '#1d1d1d'
+		});
+	</script>
+
+	<!-- Stylesheets -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/ionicons.min.css" rel="stylesheet">
+	<link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet">
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<link href="assets/css/logoiconfont.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet" title="main-css">
+
+	<!-- Style Switcher / remove for production -->
+	<link href="assets/css/style-switcher.css" rel="stylesheet">
+	
+	<!-- Alternate Stylesheets / choose what color and base you want and include the 2 files regularly AFTER style.css above -->
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/colors/blue.css" title="blue">
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/colors/green.css" title="green">
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/colors/orange.css" title="orange">
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/colors/red.css" title="red">
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/colors/orangelight.css" title="orangelight">
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/colors/pinkish.css" title="pinkish">
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/colors/seagul.css" title="seagul">
+	<link rel="alternate stylesheet" type="text/css" href="assets/css/base-light.css" title="base-light">
 </head>
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70">
 
-<body>
   <app-root></app-root>
 
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/js/scripts.js"></script>
-  <script src="assets/js/google-code-prettify/prettify.js"></script>
-  <script src="assets/js/bootstrap-transition.js"></script>
-  <script src="assets/js/bootstrap-alert.js"></script>
-  <script src="assets/js/bootstrap-modal.js"></script>
-  <script src="assets/js/bootstrap-dropdown.js"></script>
-  <script src="assets/js/bootstrap-scrollspy.js"></script>
-  <script src="assets/js/bootstrap-tab.js"></script>
-  <script src="assets/js/bootstrap-tooltip.js"></script>
-  <script src="assets/js/bootstrap-popover.js"></script>
-  <script src="assets/js/bootstrap-button.js"></script>
-  <script src="assets/js/bootstrap-collapse.js"></script>
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArLNT3t4qsJEBmR0R9P_6ueLIQz0Jvt1M&callback=initMap" async defer></script>
+    <script type="text/javascript">
+		/* ---- Google Maps ---- */
+        function initMap() {
+            var mapOptions = {
+                zoom: 15,
+				zoomControl: false,
+				scaleControl: false,
+				scrollwheel: false,
+				disableDoubleClickZoom: true,
+                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+            };
+            var mapElement = document.getElementById('map');
+            var map = new google.maps.Map(mapElement, mapOptions);
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(40.6700, -73.9400),
+                map: map,
+                title: 'Our Office!'
+            });
+        }
+    </script>
+	<script type="text/javascript" src="assets/js/particles.min.js"></script>
+	<script type="text/javascript" src="assets/js/particlesRun.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="assets/js/form-validator.min.js"></script>  
+	<script type="text/javascript" src="assets/js/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countTo.js"></script>  
+	<script type="text/javascript">
+		/* ---- Counter (our count) ---- */
+		$('#ourcount').one('inview', function(event, isInView) {
+			if (isInView) {
+				$('.timer').countTo({speed: 3000});
+			}
+		});
+	</script>
+	<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="assets/js/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="assets/js/style-switcher.js"></script><!-- Remove for production -->
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-
 </html>
