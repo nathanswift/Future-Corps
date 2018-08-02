@@ -4,8 +4,20 @@
 
 export const environment = {
   production: false,
-  content: {
-    name: 'futureCorps'
+  name: 'futureCorps',
+  number: 9016099989,
+  email: {
+    domain: 'thefuturecorps.com',
+    business: 'contact',
+    support: 'support',
+    admin: 'admin',
+    recruit: 'join',
+  },
+  links: {
+    gofundme: 'https://www.gofundme.com/support-futurecorps',
+    facebook: 'https://www.facebook.com/TheFCorps',
+    twitter: 'https://www.twitter.com/TheFCorps',
+    youtube: 'https://www.youtube.com/channel/UCy_UsC-J31J4W3XfznDVBrQ'
   }
 };
 
