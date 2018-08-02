@@ -8,7 +8,7 @@ import { environment } from '../../../environments/environment';
 })
 export class HomeBannerComponent implements OnInit {
 
-  name = environment.content.name;
+  name = environment.name;
 
   constructor() { }
 
