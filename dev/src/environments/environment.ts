@@ -11,14 +11,65 @@ export const environment = {
     business: 'contact',
     support: 'support',
     admin: 'admin',
-    recruit: 'join',
+    recruit: 'join'
   },
   links: {
     gofundme: 'https://www.gofundme.com/support-futurecorps',
     facebook: 'https://www.facebook.com/TheFCorps',
     twitter: 'https://www.twitter.com/TheFCorps',
     youtube: 'https://www.youtube.com/channel/UCy_UsC-J31J4W3XfznDVBrQ'
-  }
+  },
+  tech: [
+    {
+      icon: 'airplay',
+      title: 'Web Design',
+      description: 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+      modal: {
+        description: '',
+        about: ''
+      }
+    }, {
+      icon: 'airplay',
+      title: 'Web Design',
+      description: 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+      modal: {
+        description: '',
+        about: ''
+      }
+    }, {
+      icon: 'airplay',
+      title: 'Web Design',
+      description: 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+      modal: {
+        description: '',
+        about: ''
+      }
+    }, {
+      icon: 'airplay',
+      title: 'Web Design',
+      description: 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+      modal: {
+        description: '',
+        about: ''
+      }
+    }, {
+      icon: 'airplay',
+      title: 'Web Design',
+      description: 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+      modal: {
+        description: '',
+        about: ''
+      }
+    }, {
+      icon: 'airplay',
+      title: 'Web Design',
+      description: 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+      modal: {
+        description: '',
+        about: ''
+      }
+    }
+  ]
 };
 
 /*
