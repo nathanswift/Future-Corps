@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  pages: ['HTML', 'CSS', 'JavaScript', 'PHP']
+  content: {
+    name: 'futureCorps'
+  }
 };
 
 /*
