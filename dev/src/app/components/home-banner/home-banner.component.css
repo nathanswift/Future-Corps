@@ -1,0 +1,10 @@
+div.container.center-vertically-holder > div > div > h1 > img{
+    Height: auto;
+    width: 45%;
+    opacity: .9;
+ }
+
+ div.container.center-vertically-holder > div > div > p{
+     text-align: right;
+     margin-left: 200px;
+ }
