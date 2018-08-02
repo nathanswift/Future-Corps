@@ -8,8 +8,6 @@ import { environment } from '../../../environments/environment';
 })
 export class NavbarComponent implements OnInit {
 
-  pages = environment.pages;
-
   constructor() {}
 
   ngOnInit() {
