@@ -20,6 +20,7 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MapComponent } from './components/map/map.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 const appRoutes: Routes = [
   { path: 'crisis-center', component: HomeComponent },
@@ -45,7 +46,8 @@ const appRoutes: Routes = [
     PricingComponent,
     ContactComponent,
     MapComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ],
   
   imports: [
