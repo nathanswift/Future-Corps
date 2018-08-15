@@ -21,9 +21,12 @@ import { ContactComponent } from './components/contact/contact.component';
 import { MapComponent } from './components/map/map.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { IntroVideoComponent } from './pages/intro-video/intro-video.component';
+import { VideoSliderComponent } from './components/video-slider/video-slider.component';
 
 const appRoutes: Routes = [
-  { path: 'crisis-center', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'intro-video', component: IntroVideoComponent },
   { path: '**', component: HomeComponent }
 ];
 
@@ -47,7 +50,9 @@ const appRoutes: Routes = [
     ContactComponent,
     MapComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    IntroVideoComponent,
+    VideoSliderComponent
   ],
   
   imports: [
