@@ -23,10 +23,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { IntroVideoComponent } from './pages/intro-video/intro-video.component';
 import { VideoSliderComponent } from './components/video-slider/video-slider.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'intro-video', component: IntroVideoComponent },
+  { path: 'about-us', component: AboutUsComponent },
   { path: '**', component: HomeComponent }
 ];
 
@@ -53,6 +55,7 @@ const appRoutes: Routes = [
     ProjectsComponent,
     IntroVideoComponent,
     VideoSliderComponent,
+    AboutUsComponent,
     
   ],
   
