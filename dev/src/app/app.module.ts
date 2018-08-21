@@ -25,6 +25,7 @@ import { VideoSliderComponent } from './components/video-slider/video-slider.com
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { StudentServicesComponent } from './components/student-services/student-services.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -59,6 +60,7 @@ const appRoutes: Routes = [
     AboutUsComponent,
     StudentsComponent,
     ContactUsComponent,
+    StudentServicesComponent,
     
   ],
   
