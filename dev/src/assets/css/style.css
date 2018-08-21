@@ -1808,7 +1808,7 @@ ul.social-buttons li a:active {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
-  background-color: rgba(137, 128, 254, 0.80);
+  background-color: #26C3CC
 }
 
 .team-image-wrapper .team-image-hover .team-hover-content {
@@ -1819,7 +1819,7 @@ ul.social-buttons li a:active {
 }
 
 .team-image-wrapper:hover .team-image-hover {
-  opacity: 1;
+  opacity: .75;
 }
 
 .team-image-hover:before {
