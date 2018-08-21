@@ -16,7 +16,6 @@ import { Parallax2Component } from './components/parallax2/parallax2.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { TeamComponent } from './components/team/team.component';
-import { PricingComponent } from './components/pricing/pricing.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MapComponent } from './components/map/map.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -26,6 +25,8 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { StudentServicesComponent } from './components/student-services/student-services.component';
+import { StudentProgramOptionsComponent } from './components/student-program-options/student-program-options.component';
+import { StudentOverviewComponent } from './components/student-overview/student-overview.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -51,7 +52,6 @@ const appRoutes: Routes = [
     ProfileComponent,
     TimelineComponent,
     TeamComponent,
-    PricingComponent,
     ContactComponent,
     MapComponent,
     FooterComponent,
@@ -61,6 +61,8 @@ const appRoutes: Routes = [
     StudentsComponent,
     ContactUsComponent,
     StudentServicesComponent,
+    StudentProgramOptionsComponent,
+    StudentOverviewComponent,
     
   ],
   
