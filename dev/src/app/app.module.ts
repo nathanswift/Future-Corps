@@ -24,11 +24,13 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { VideoSliderComponent } from './components/video-slider/video-slider.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { StudentsComponent } from './pages/students/students.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'students', component: StudentsComponent },
   { path: 'about-us', component: AboutUsComponent },
+  { path: 'contact-us', component: ContactUsComponent },
   { path: '**', component: HomeComponent }
 ];
 
@@ -56,6 +58,7 @@ const appRoutes: Routes = [
     VideoSliderComponent,
     AboutUsComponent,
     StudentsComponent,
+    ContactUsComponent,
     
   ],
   
