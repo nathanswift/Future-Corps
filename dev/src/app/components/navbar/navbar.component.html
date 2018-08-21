@@ -4,19 +4,16 @@
     <div class="container-fluid">
       <div class="row">
         <div class="navbar-header">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <a routerLink="home"></a>
-            <span class="icon-handle-streamline-vector logo"></span>
-            <span class="sr-only">Toggle Dropdown</span>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" routerLink="about-us">About</a>
-            <a class="dropdown-item" href="#">Contact</a>
-            <a class="dropdown-item" href="https://www.gofundme.com/support-futurecorps" target="blank">Donate</a>
-            <a class="dropdown-item" href="#">Volunteer</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
+          <a class="navbar-brand scroll-link" routerLink="home" data-id="home">
+            <span class="icon-handle-streamline-vector logo"></span>
+          </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,10 +28,22 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a routerLink="intro-video" target="blank">Students</a>
+                  <a routerLink="students" target="blank">Students</a>
                 </li>
                 <li>
-                  <a href="https://workflowy.com/" target="_blank">Administration</a>
+                    <a href="https://workflowy.com/" target="_blank">Administration</a>
+                  </li>
+                <li>
+                  <a routerLink="about-us">About Us</a>
+                </li>
+                <li>
+                  <a href="https://www.gofundme.com/support-futurecorps" target="blank">Donate</a>
+                </li>
+                <li>
+                  <a routerLink="intro-video" target="blank">Contact</a>
+                </li>
+                <li>
+                  <a routerLink="intro-video" target="blank">Volunteer</a>
                 </li>
               </ul>
             </li>
