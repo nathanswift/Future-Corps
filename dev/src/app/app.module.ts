@@ -52,7 +52,8 @@ const appRoutes: Routes = [
     FooterComponent,
     ProjectsComponent,
     IntroVideoComponent,
-    VideoSliderComponent
+    VideoSliderComponent,
+    
   ],
   
   imports: [
