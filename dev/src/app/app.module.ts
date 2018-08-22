@@ -9,7 +9,6 @@ import { PreloaderComponent } from './components/preloader/preloader.component';
 import { IntroParallaxComponent } from './components/intro-parallax/intro-parallax.component';
 import { HomeBannerComponent } from './components/home-banner/home-banner.component';
 import { OurProcessComponent } from './components/our-process/our-process.component';
-import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ServicesComponent } from './components/services/services.component';
 import { AboutComponent } from './components/about/about.component';
 import { Parallax2Component } from './components/parallax2/parallax2.component';
@@ -26,7 +25,7 @@ import { StudentsComponent } from './pages/students/students.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { StudentServicesComponent } from './components/student-services/student-services.component';
 import { StudentProgramOptionsComponent } from './components/student-program-options/student-program-options.component';
-import { StudentOverviewComponent } from './components/student-overview/student-overview.component';
+import { StudentOverviewComponent } from './components/student-overview/student-overview.component'
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -45,7 +44,6 @@ const appRoutes: Routes = [
     IntroParallaxComponent,
     HomeBannerComponent,
     OurProcessComponent,
-    TestimonialsComponent,
     ServicesComponent,
     AboutComponent,
     Parallax2Component,
@@ -63,6 +61,7 @@ const appRoutes: Routes = [
     StudentServicesComponent,
     StudentProgramOptionsComponent,
     StudentOverviewComponent,
+
     
   ],
   
