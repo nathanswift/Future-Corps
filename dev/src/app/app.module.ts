@@ -25,13 +25,15 @@ import { StudentsComponent } from './pages/students/students.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { StudentServicesComponent } from './components/student-services/student-services.component';
 import { StudentProgramOptionsComponent } from './components/student-program-options/student-program-options.component';
-import { StudentOverviewComponent } from './components/student-overview/student-overview.component'
+import { StudentOverviewComponent } from './components/student-overview/student-overview.component';
+import { ApplicationComponent } from './pages/application/application.component'
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'students', component: StudentsComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'application', component: ApplicationComponent },
   { path: '**', component: HomeComponent }
 ];
 
@@ -61,13 +63,16 @@ const appRoutes: Routes = [
     StudentServicesComponent,
     StudentProgramOptionsComponent,
     StudentOverviewComponent,
+    ApplicationComponent,
 
     
   ],
   
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes,
+      { enableTracing: true }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
