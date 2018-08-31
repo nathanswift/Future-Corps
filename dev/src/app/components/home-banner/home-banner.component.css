@@ -1,7 +1,8 @@
-div.container.center-vertically-holder > div > div > h1 > img{
+div > div > h1 > img{
     Height: auto;
-    width: 35%;
+    width: 10%;
     opacity: .9;
+    float: right;
  }
 
  div.container.center-vertically-holder > div > div > p{
