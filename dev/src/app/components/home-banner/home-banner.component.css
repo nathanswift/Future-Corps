@@ -1,9 +1,9 @@
-div > div > h1 > img{
+div.container.center-vertically-holder > div > div > img {
     Height: auto;
-    width: 10%;
+    width: 60%;
+    display: inline;
     opacity: .9;
-    float: right;
- }
+}
 
  div.container.center-vertically-holder > div > div > p{
      text-align: right;

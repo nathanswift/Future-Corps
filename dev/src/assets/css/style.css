@@ -63,7 +63,7 @@ a:focus {
 }
 
 a {
-  color: #26C3CC;
+  color: #C1A772;
   outline: none;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -74,12 +74,12 @@ a {
 a.thumbnail.active,
 a.thumbnail:focus,
 a.thumbnail:hover {
-  border-color: #26C3CC;
+  border-color: #C1A772;
 }
 
 a:focus,
 a:hover {
-  color: #26C3CC;
+  color: #C1A772;
   text-decoration: underline;
 }
 
@@ -103,7 +103,7 @@ span.divider {
   margin: 25px 0px;
   width: 100px;
   height: 2px;
-  background-color: #26C3CC;
+  background-color: #C1A772;
 }
 
 span.divider.center {
@@ -126,7 +126,7 @@ button:hover,
   box-shadow: none !important;
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
-  border-color: #26C3CC;
+  border-color: #C1A772;
 }
 
 .ticker {
@@ -586,8 +586,8 @@ h6 {
 
 .btn-default:hover {
   color: #fff;
-  background-color: #26C3CC;
-  border-color: #26C3CC;
+  background-color: #C1A772;
+  border-color: #C1A772;
 }
 
 .btn-default.active.focus,
@@ -600,8 +600,8 @@ h6 {
 .open>.dropdown-toggle.btn-default:focus,
 .open>.dropdown-toggle.btn-default:hover {
   color: #fff;
-  background-color: #26C3CC;
-  border-color: #26C3CC;
+  background-color: #C1A772;
+  border-color: #C1A772;
 }
 
 .btn.active.focus,
@@ -617,8 +617,8 @@ h6 {
 .btn-default:active,
 .open>.dropdown-toggle.btn-default {
   color: #fff;
-  background-color: #26C3CC;
-  border-color: #26C3CC;
+  background-color: #C1A772;
+  border-color: #C1A772;
 }
 
 .btn-default.disabled.focus,
@@ -631,8 +631,8 @@ fieldset[disabled] .btn-default.focus,
 fieldset[disabled] .btn-default:focus,
 fieldset[disabled] .btn-default:hover {
   color: #fff;
-  background-color: #26C3CC;
-  border-color: #26C3CC;
+  background-color: #C1A772;
+  border-color: #C1A772;
 }
 
 .btn-default.disabled.focus,
@@ -649,8 +649,8 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #26C3CC;
-  border-color: #26C3CC;
+  background-color: #C1A772;
+  border-color: #C1A772;
 }
 
 .btn-primary:hover {
@@ -743,8 +743,8 @@ fieldset[disabled] .btn-primary:hover {
 
 .btn-light:hover {
   color: #fff;
-  background-color: #26C3CC;
-  border-color: #26C3CC;
+  background-color: #C1A772;
+  border-color: #C1A772;
 }
 
 /* =Progress Bars
@@ -762,7 +762,7 @@ fieldset[disabled] .btn-primary:hover {
 
 .progress-bar {
   font-size: 13px;
-  background-color: #26C3CC;
+  background-color: #C1A772;
   box-shadow: none;
   border-radius: 11px;
   line-height: 18px;
@@ -874,7 +874,7 @@ ul.list-arrow li:before {
 }
 
 ul.list-arrow-color li:before {
-  color: #26C3CC;
+  color: #C1A772;
 }
 
 ul.list-arrow-2 {
@@ -893,7 +893,7 @@ ul.list-arrow-2 li:before {
 }
 
 ul.list-arrow-2-color li:before {
-  color: #26C3CC;
+  color: #C1A772;
 }
 
 ul.social-buttons li a {
@@ -916,7 +916,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #26C3CC;
+  background-color: #C1A772;
 }
 
 /* =Tabs
@@ -935,8 +935,8 @@ ul.social-buttons li a:active {
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
   color: #fff;
-  background-color: #26C3CC;
-  border: 1px solid #26C3CC;
+  background-color: #C1A772;
+  border: 1px solid #C1A772;
   border-bottom: 2px solid #615fde;
 }
 
@@ -1085,7 +1085,7 @@ ul.social-buttons li a:active {
 }
 
 .animate-color-1 {
-  background-color: #26C3CC;
+  background-color: #C1A772;
 }
 
 .animate-color-2 {
@@ -1248,7 +1248,7 @@ ul.social-buttons li a:active {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
-  color: #26C3CC;
+  color: #C1A772;
   background-color: transparent;
 }
 
@@ -1259,7 +1259,7 @@ ul.social-buttons li a:active {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #26C3CC;
+  color: #C1A772;
   background-color: transparent;
 }
 
@@ -1277,13 +1277,13 @@ ul.social-buttons li a:active {
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #33C3CB;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
 
 .dropdown-menu {
-  background-color: #BEEBEE;
+  background-color: #D8C184;
   border: 1px thin #2c2c2c;
   border-width: 100%;
   border-radius: 0;
@@ -1299,8 +1299,8 @@ ul.social-buttons li a:active {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #26C3CC;
-  background-color: #26C3CC;
+  border-color: #C1A772;
+  background-color: #C1A772;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -1343,15 +1343,15 @@ ul.social-buttons li a:active {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background: #2eeaaf;
+  background: #fff;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #2eeaaf 0%, #cdf0f2 0%, #26c3cc 50%, #6cc0c9 100%);
+  background: -moz-linear-gradient(left, #fff 0%, #EFDA8D 0%, #C1A772 50%, #93763F 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #2eeaaf 0%, #cdf0f2 0%, #26c3cc 50%, #6cc0c9 100%);
+  background: -webkit-linear-gradient(left, #fff 0%, #EFDA8D 0%, #C1A772 50%, #93763F 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #2eeaaf 0%, #cdf0f2 0%, #26c3cc 50%, #6cc0c9 100%);
+  background: linear-gradient(to right, #fff 0%, #EFDA8D 0%, #C1A772 50%, #93763F 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2eeaaf', endColorstr='#6cc0c9', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#93763F', GradientType=1);
   /* IE6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1);
   /* IE6-9 */
@@ -1528,7 +1528,7 @@ ul.social-buttons li a:active {
 
 #our-process .process-icons {
   font-size: 90px;
-  color: #26C3CC;
+  color: #C1A772;
 }
 
 #our-process .process-content {
@@ -1601,13 +1601,13 @@ ul.social-buttons li a:active {
 }
 
 .fade-quote-carousel.carousel .carousel-indicators>li {
-  border: 1px solid #26C3CC;
+  border: 1px solid #C1A772;
   width: 8px;
   height: 8px;
 }
 
 .fade-quote-carousel.carousel .carousel-indicators .active {
-  background-color: #26C3CC;
+  background-color: #C1A772;
   margin: 1px;
 }
 
@@ -1628,7 +1628,7 @@ ul.social-buttons li a:active {
 
 .services-icon {
   font-size: 40px;
-  color: #26C3CC;
+  color: #C1A772;
 }
 
 .service-name {
@@ -1669,13 +1669,13 @@ ul.social-buttons li a:active {
 }
 
 .basic-carousel.carousel .carousel-indicators>li {
-  border: 1px solid #26C3CC;
+  border: 1px solid #C1A772;
   width: 8px;
   height: 8px;
 }
 
 .basic-carousel.carousel .carousel-indicators .active {
-  background-color: #26C3CC;
+  background-color: #C1A772;
   margin: 1px;
 }
 
@@ -1735,7 +1735,7 @@ ul.social-buttons li a:active {
   margin-bottom: 20px;
   width: 110px;
   height: 110px;
-  background-color: #26C3CC;
+  background-color: #C1A772;
   border-radius: 50%;
 }
 
@@ -1810,7 +1810,7 @@ ul.social-buttons li a:active {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
-  background-color: #26C3CC
+  background-color: #C1A772
 }
 
 .team-image-wrapper .team-image-hover .team-hover-content {
@@ -1955,7 +1955,7 @@ span.portfolio-hover a {
 .portfolio-links:hover {
   background-color: #fff;
   border: 2px solid #fff;
-  color: #26C3CC;
+  color: #C1A772;
 }
 
 .portfolio-links-icons {
@@ -2030,7 +2030,7 @@ span.portfolio-hover a {
 }
 
 .plan li>strong {
-  color: #26C3CC;
+  color: #C1A772;
   font-size: 18px;
 }
 
@@ -2049,7 +2049,7 @@ span.portfolio-hover a {
 }
 
 .plan.featured:hover li.plan-name {
-  background: #26C3CC;
+  background: #C1A772;
 }
 
 .plan.featured2 li.plan-name {
@@ -2057,7 +2057,7 @@ span.portfolio-hover a {
 }
 
 .plan.featured2:hover li.plan-name {
-  background: #26C3CC;
+  background: #C1A772;
 }
 
 .plan:hover li.plan-name {
@@ -2237,7 +2237,7 @@ span.portfolio-hover a {
 .has-error.checkbox-inline label,
 .has-error.radio label,
 .has-error.radio-inline label {
-  color: #26C3CC;
+  color: #C1A772;
   font-size: 12px;
   font-weight: 400;
 }
