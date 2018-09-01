@@ -9,3 +9,11 @@ div > div > h1 > img{
      text-align: right;
      margin-left: 200px;
  }
+
+div.container.center-vertically-holder > div > div > h1 {
+    color: black;
+}
+
+#home > div.container.center-vertically-holder > div > div > h1 > strong {
+    color: #fff;
+}
