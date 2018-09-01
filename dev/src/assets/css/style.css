@@ -655,8 +655,8 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #615fde;
-  border-color: #615fde;
+  background-color: #71242B;
+  border-color: #71242B;
 }
 
 .btn-primary.active.focus,
@@ -669,8 +669,8 @@ fieldset[disabled] .btn-default:hover {
 .open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
   color: #fff;
-  background-color: #615fde;
-  border-color: #615fde;
+  background-color: #71242B;
+  border-color: #71242B;
 }
 
 .btn-primary.focus,
@@ -693,8 +693,8 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:active,
 .open>.dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #615fde;
-  border-color: #615fde;
+  background-color: #71242B;
+  border-color: #71242B;
 }
 
 .btn-primary.disabled.focus,
@@ -707,8 +707,8 @@ fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
   color: #fff;
-  background-color: #615fde;
-  border-color: #615fde;
+  background-color: #71242B;
+  border-color: #71242B;
 }
 
 .btn-primary.disabled.focus,
@@ -937,17 +937,17 @@ ul.social-buttons li a:active {
   color: #fff;
   background-color: #C1A772;
   border: 1px solid #C1A772;
-  border-bottom: 2px solid #615fde;
+  border-bottom: 2px solid #71242B;
 }
 
 .nav-tabs>li>a:hover {
-  border-color: #615fde;
+  border-color: #71242B;
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
   text-decoration: none;
-  background-color: #615fde;
+  background-color: #71242B;
   color: #fff;
 }
 
@@ -1130,11 +1130,11 @@ ul.social-buttons li a:active {
 .modal-header {
   outline-offset: -13px;
   padding: 40px;
-  background: #6819e8;
-  background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
-  background: -webkit-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
-  background: linear-gradient(to right, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1);
+  background: #4F0D13;
+  background: -moz-linear-gradient(left, #4F0D13 0%, #71242B 35%, #AB5F65 68%, #D29197 100%);
+  background: -webkit-linear-gradient(left, #4F0D13 0%, #71242B 35%, #AB5F65 68%, #D29197 100%);
+  background: linear-gradient(to right, #4F0D13 0%, #71242B 35%, #AB5F65 68%, #D29197 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4F0D13', endColorstr='#D29197', GradientType=1);
 }
 
 .modal-body {
@@ -1353,7 +1353,7 @@ ul.social-buttons li a:active {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#93763F', GradientType=1);
   /* IE6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4F0D13', endColorstr='#4F0D13', GradientType=1);
   /* IE6-9 */
 }
 
@@ -1892,15 +1892,15 @@ span.portfolio-hover {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
-  background: #6819e8;
+  background: #4F0D13;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+  background: -moz-linear-gradient(left, #4F0D13 0%, #71242B 35%, #71242B 68%, #4F0D13 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+  background: -webkit-linear-gradient(left, #4F0D13 0%, #71242B 35%, #71242B 68%, #4F0D13 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+  background: linear-gradient(to right, #4F0D13 0%, #71242B 35%, #71242B 68%, #4F0D13 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4F0D13', endColorstr='#4F0D13', GradientType=1);
   /* IE6-9 */
 }
 
