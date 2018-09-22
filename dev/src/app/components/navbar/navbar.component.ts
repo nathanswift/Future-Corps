@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-navbar',
@@ -8,7 +7,14 @@ import { environment } from '../../../environments/environment';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() {}
+  constructor() {
+    window.addEventListener('click', function() {
+      const homeButton = document.getElementsByClassName('navbar-toggle collapsed');
+      if (homeButton) {
+        location.reload();
+      }
+    });  
+  }
 
   ngOnInit() {
   }
